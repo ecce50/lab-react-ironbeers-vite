@@ -1,0 +1,33 @@
+body {
+  margin: auto 0;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+#beerInfo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid grey;
+}
+
+#beerInfo > img {
+  height: 120px;
+  padding: 1rem;
+  margin: 0 0 1rem 1rem;
+}
+
+#beerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#beerText > p {
+  margin: 8px;
+}
+
+#beerText h3 {
+color: black;
+    margin: 8px;
+    text-decoration: none;
+}
